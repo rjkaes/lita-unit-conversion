@@ -1,15 +1,26 @@
 # lita-unit-conversion
 
-TODO: Add a description of the plugin.
+**lita-unit-conversion** is a handler for
+[Lita](https://github.com/jimmycuadra/lita) that converts any units recognized
+by [ruby-unit](https://github.com/olbrich/ruby-units).
 
 ## Installation
 
-Add lita-unit-conversion to your Lita plugin's gemspec:
+Add lita-unit-conversion to your Lita instance's Gemfile:
 
 ``` ruby
-spec.add_runtime_dependency "lita-unit-conversion"
+gem "lita-unit-conversion"
 ```
 
 ## Usage
 
-TODO: Describe the plugin's features and how to use them.
+To generate ASCII art:
+
+```
+Alice: lita: convert 1 lbs into kg
+Lita: 0.45 kg
+```
+
+## License
+
+[MIT](http://opensource.org/licenses/MIT)
