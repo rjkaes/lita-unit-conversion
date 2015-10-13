@@ -19,6 +19,8 @@ module Lita
         response.reply "I'm sorry, but I cannot convert `#{from}` into `#{to}`."
       end
 
+      Lita.register_handler(UnitConversion)
+
       private
 
       def extract_conversion_from(response)
